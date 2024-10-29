@@ -1,0 +1,326 @@
+ /* Estilos para la sección de descargas */
+
+ #Descargando {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .descargando {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #4caf50;
+    transition: color 0.3s;
+  }
+  
+  .descargando:hover {
+    color: #3e8e41;
+  }
+  
+  .descargando i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li + li {
+    margin-top: 20px;
+  }
+/* Estilos para el apartado de Telegram */
+
+#contacto-telegram {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .btn-telegram {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-telegram:hover {
+    background-color: #3e8e41;
+  }
+  
+  .telegram-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .telegram-container p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  /* Estilos globales */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  /* Estilos para la sección de contacto */
+
+#contacto {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contacto h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+ 
+  /* Estilos de la cabecera */
+  header {
+    background-color: #212121;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #4caf50;
+  }
+  
+  .btn-menu {
+    background-color: #212121;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .nav-open {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  /* Estilos de la sección de inicio */
+  #inicio {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-ver-mas {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-ver-mas:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Estilos de la sección de mods */
+  #mods {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .mods-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .mod {
+    margin: 20px;
+    text-align: center;
+    flex-basis: calc(33.33% - 20px);
+  }
+  
+  .mod img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .mod h3 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+  
+  .mod p {
+    margin-top: 10px;
+    font-size: 1.4rem;
+  }
+  
+  .btn-comprar {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Estilos de la sección de contacto */
+  #contacto {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  .hola{
+    color: #3e8e41;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+  .icon{
+    border-radius: 60px;
+  }
+  /* Estilos de responsividad */
+  @media (max-width: 768px) {
+    .nav-btn {
+      display: block;
+    }
+    .nav-open {
+      flex-direction: row;
+    }
+    .mod {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+
+ .mod {   
+      flex-basis: 100%;
+        }
